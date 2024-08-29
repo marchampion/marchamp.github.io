@@ -6,9 +6,7 @@ authors:
 - Céline Grandmont 
 - Fabien Vergnet 
 - Marina Vidrascu
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
+
 date: "2024-09-01T00:00:00Z"
 doi: "10.3934/mine.2024018"
 
@@ -18,7 +16,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+#publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Mathematics in Engineering"
@@ -29,9 +27,9 @@ publication_short: ""
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
-featured: false
+#tags:
+#- Source Themes
+featured: true
 
 # links:
 # - name: ""
@@ -47,10 +45,10 @@ url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: ''
+#image:
+  #caption: ''
   #focal_point: ""
-  preview_only: false
+  #preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -64,7 +62,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+#slides: example
 ---
 
 {{% callout note %}}
