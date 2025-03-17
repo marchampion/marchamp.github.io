@@ -41,46 +41,6 @@ sections:
 #    design:
 #      view: article-grid
 #      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: citation
-      columns: 1
-  - block: markdown
-    content:
-      title: 'Teaching'
-      subtitle: ''
-      text: |-
-        Sorbonne University moniteur 
-
-        Numerical analysis, 24h, L3, Sorbonne University
-
-        Python, 32h, L2, Sorbonne University
-    design:
-      columns: '1'
-  - block: markdown
-    content:
-      title: 'Other'
-      subtitle: ''
-      text: |-
-        Co-organizer of "Rencontres Jeunes Mathématiciennes et Informaticiennes", Inria Paris, October 2023
-    design:
-      columns: '1'
 #  - block: collection
 #    id: news
 #    content:
